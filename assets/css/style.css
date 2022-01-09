@@ -1,0 +1,205 @@
+/* HEADER */
+
+.header{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.menu{
+    display: flex;
+    color: #8C8888;
+}
+
+.menu li{
+    margin-left: 1rem;
+    list-style: none;
+}
+
+.menu a {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.menu li:first-child{
+    color: rgb(54, 59, 59);
+}
+
+
+/* BANNER */
+
+.banner{
+    width: 100%;
+    margin-top: 0;
+}
+
+
+/* FIRST SECTION */
+
+.firstSection{
+    width: 80vw;
+    padding: 50px 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstSection h1{
+    font-family: 'Pacifico';
+    color: #8D0606;
+    font-size: 51px;
+}
+
+.firstSection p{
+    font-family: 'Roboto', sans-serif;
+    color: #8C8888;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 300;
+}
+
+
+/* SECOND SECTION */
+
+.secondSection{
+    background-color: #e5e5e5;
+}
+
+.cardsGroup{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    padding: 60px 0;
+}
+
+.cardItem{
+    width: 276px;
+    height: 384px;
+    margin: 30px;
+    background-color: #fff;
+    border: 1px solid rgb(192, 186, 186);
+    border-radius: 2px;
+    transition: 0.2s;
+}
+
+.cardItem img{
+    width: 276px;
+}
+
+.cardsText{
+    padding: 15px;
+    text-align: justify;
+}
+
+.cardItem h2{
+    font-size: 23px ;
+}
+
+.cardItem p{
+    font-size: 19px;
+}
+
+.cardItem button{
+    cursor: pointer;
+    background-color: #8D0606;
+    color: #fff;
+    font-size: 18px;
+    width: 115px;
+    height: 37px;
+    border: none;
+    border-radius: 5px;
+}
+
+.cardItem button:hover{
+    transform: scale(1.02);
+    background-color: #6D0606;
+}
+
+
+
+/* THIRD SECTION */
+
+.thirdSection{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;   
+}
+
+.thirdSection h2{
+    font-family: 'Pacifico';
+    font-size: 51px;
+    color: #8D0606;
+}
+
+.text__sectionTitle{
+    font-family: 'Roboto';
+    color: #8C8888;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.thirdSection h3{
+    font-family: 'Pacifico';
+    font-size: 23px;
+    color: #8D0606;
+}
+
+.cardsGroup__quemSomos{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width:100%;
+}
+
+.img__QuemSomos{
+    margin-bottom: 20px;
+    border-radius: 100%; 
+}
+
+.cardItem__quemSomos{
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardItem__quemSomos p{
+    color: #8C8888;
+    font-size: 18px;
+}
+
+
+/* FOOTER */
+
+footer{
+    height: 108px;
+    background-color: #C4C4C4;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 20px;
+}
+
+footer h4{
+    font-family: Roboto;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 400;
+
+}
+
+footer div{
+    background-color: #8D0606;
+    height: 47px;
+    width: 47px;
+    margin: 0 10px;
+}
+
+
+
