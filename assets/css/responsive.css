@@ -7,6 +7,16 @@
         align-items: center; 
     }
 
+    /* BANNER */
+    .banner__img{
+        height: 40vh;
+    }
+
+    .banner__title{
+        font-size: 4rem;
+    }
+    
+
     /*FIRST SECTION*/
     .firstSection{
         padding: 50px 10%;
