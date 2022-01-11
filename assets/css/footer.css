@@ -1,0 +1,28 @@
+/* FOOTER */
+
+.footer{
+    height: 108px;
+    background-color: #C4C4C4;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 20px;
+}
+
+.footer__Text{
+    font-family: Roboto;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 400;
+
+}
+
+.footer__redBox{
+    background-color: #8D0606;
+    height: 47px;
+    width: 47px;
+    margin: 0 10px;
+}
+
+
+

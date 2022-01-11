@@ -1,0 +1,60 @@
+/* RECIPE */
+
+.recipe{
+    background-color: #e5e5e5;
+}
+
+.recipe__cardGroup{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    padding: 60px 0;
+}
+
+.cardGroup__cardItem{
+    width: 276px;
+    height: 384px;
+    margin: 30px;
+    background-color: #fff;
+    border: 1px solid rgb(192, 186, 186);
+    border-radius: 2px;
+    transition: 0.2s;
+}
+
+.cardItem__img{
+    width: 276px;
+}
+
+.cardItem__cardsText{
+    padding: 15px;
+    text-align: justify;
+}
+
+.cardsText__title{
+    font-size: 23px;
+}
+
+.cardsText__description{
+    font-size: 19px;
+}
+
+.cardsText__button{
+    cursor: pointer;
+    background-color: #8D0606;
+    color: #fff;
+    font-size: 18px;
+    width: 115px;
+    height: 37px;
+    border: none;
+    border-radius: 5px;
+}
+
+.cardsText__button:hover{
+    transform: scale(1.02);
+    background-color: #6D0606;
+}
+
+
+

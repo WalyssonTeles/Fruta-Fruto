@@ -1,0 +1,17 @@
+/* RESPONSIVIDADE DA TELA */
+
+@media (max-width:768px){
+    .header{
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+    }
+
+    /*FIRST SECTION*/
+    .firstSection{
+        padding: 50px 10%;
+    }
+}
+
+
+
